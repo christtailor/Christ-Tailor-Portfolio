@@ -24,25 +24,3 @@ const closeNav = () => {
     closeBtn.style.display = "none"
     menuBtn.style.display = "inline-block";
 }
-
-const certiData = () =>{
-certidata.style.display = "none";
-dwn_arw.style.display = "inline-block";
-up_arw.style.display = "none";
-}
-
-const opencertiData = () =>{
- certidata.style.display = "flex";
-dwn_arw.style.display = "none";
-up_arw.style.display = "inline-block";
-}
-
-
-// Closes Navbar
-closeBtn.addEventListener('click', closeNav)
-
-// // Open Certificate Data
-dwn_arw.addEventListener('click', opencertiData)
-
-// Closes Certificate Data
-up_arw.addEventListener('click', certiData)

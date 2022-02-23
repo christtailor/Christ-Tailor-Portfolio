@@ -11,7 +11,7 @@
 }
 
 
-/* root variables */
+/* =================== ROOT VARIABLES ===================*/
 
 :root{
     --color-primary: #7562e0;
@@ -132,7 +132,8 @@ section#services {
 }
 
 
-/* Navbar */
+/* =================== NAVBAR ===================*/
+
 
 
 nav{
@@ -177,7 +178,8 @@ nav button{
 /* NAV END */
 
 
-/* Header */
+/* =================== HEADER ===================*/
+
 
 header{
     height: calc(100vh - 5rem);
@@ -258,7 +260,8 @@ header{
     z-index: 1;
 }
 
-/* Projects */
+/* =================== PROJECTS ===================*/
+
 
 .project__body{
     display: grid;
@@ -319,10 +322,17 @@ header{
     .pcard:hover {
         box-shadow: 0.1rem 0.1rem 1.8rem rgba(0, 0, 0, 0.25);
     }
-/* Services */
+
+
+
+/* =================== SERVICES ===================*/
+
 /* section#services{
     margin-top: 8rem;
 } */
+
+
+
 
 .services__container{
     display: grid;
@@ -390,7 +400,9 @@ cursor: default;
 }
 
 
-/* Qualifications*/
+
+/* =================== HISTORY ===================*/
+
 
 
 
@@ -465,7 +477,8 @@ cursor: default;
 
 
 
-/* Certifications */
+/* =================== VERTIFICATION ===================*/
+
 .certificates{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -529,8 +542,8 @@ details summary {
 
 
 
+/* =================== CONTACT FORM ===================*/
 
-/* Contact Form */
 
 #contact__container{
     background: var(--color-primary);
@@ -597,7 +610,8 @@ form input, textarea{
 }
 
 
-/* FOother */
+/* =================== FOOTER ===================*/
+
 
 footer{
     text-align: center;
@@ -609,7 +623,8 @@ footer{
 
 
 
-/* MEDIA QUERIES TABLETS */
+/* =================== MEDIA QUERIES TABLETS (1024px) ===================*/
+
 @media screen and (max-width: 1024px) {
 
     h1{
@@ -790,7 +805,7 @@ color: var(--color-black);
 
 
 
-/* Mobiles */
+/* =================== MEDIA QUERIES MOBILES (600px) ===================*/
 
 @media screen and (max-width: 600px) {
 
@@ -944,6 +959,10 @@ form {
 
 }
 
+
+
+
+/* =================== FOOTER ===================*/
 
 footer a{
     color:white;
