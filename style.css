@@ -258,7 +258,7 @@ header{
 .header__image{
     width: 82%;
     position: absolute;
-    bottom: 10rem;
+    bottom: 4rem;
     z-index: 1;
 }
 
