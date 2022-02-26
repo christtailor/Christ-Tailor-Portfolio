@@ -25,4 +25,5 @@ const closeNav = () => {
     menuBtn.style.display = "inline-block";
 }
 
+
 closeBtn.addEventListener('click', closeNav)
