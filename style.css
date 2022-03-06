@@ -889,21 +889,6 @@ header{
 .header__left p {
 margin: 0.5rem 0 1.2rem;
 }
-.header__image{
-    position: relative;
-    top: -9rem;
-    left: -5rem;
-}
-
-.header__socials{
-    position: absolute;
-    margin-left: 132vw;
-    display: flex;
-    width: fit-content;
-    font-size: 1.2rem;
-    flex-direction: row;
-}
-
 .header__socials a{
     background: var(--color-primary);
     border-radius: 2rem;
@@ -912,6 +897,31 @@ margin: 0.5rem 0 1.2rem;
 }
 .header__socials a:hover{
     color: var(--color-white);
+}
+
+.header__socials {
+    position: absolute;
+    margin-left: 132vw;
+    display: flex;
+    width: fit-content;
+    font-size: 1.2rem;
+    padding: 0.2rem;
+    border-radius: 1.5rem;
+    padding: 0.5rem 1rem;
+    backdrop-filter: blur(4px);
+    background: #ffffff7a;
+    z-index: 2;
+    flex-direction: row;
+} 
+
+.header__image {
+    position: relative;
+
+    width: 100%;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* section {
     padding: 0 0 1rem; 
